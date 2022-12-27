@@ -1,3 +1,6 @@
+<?php 
+date_default_timezone_get("Asia/Bangkok");
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -23,6 +26,8 @@
         <option value="Hindu">Hindu</option>
         <option value="Konghucu">Konghucu</option>
     </select> <br>
-    <label for=""></label>
+    <label for="">Komentar</label> <br>
+    <textarea name="komentar" id="" cols="80" rows="8"></textarea> <br>
+    <button type="submit" name="submit" value = <?php echo date("h:i:sa"); ?>>Submit</button>
 </body>
 </html>
