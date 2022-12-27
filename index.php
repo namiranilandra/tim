@@ -24,7 +24,7 @@ date_default_timezone_get("Asia/Bangkok");
         <option value="Kristen">Kristen</option>
         <option value="Budha">Budha</option>
         <option value="Hindu">Hindu</option>
-        <option value="Konghucu">Kocu</option>
+        <option value="Konghucu">Konghucu</option>
     </select> <br>
     <label for="">Komentar</label> <br>
     <textarea name="komentar" id="" cols="80" rows="8"></textarea> <br>
