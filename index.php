@@ -28,6 +28,6 @@ date_default_timezone_get("Asia/Bangkok");
     </select> <br>
     <label for="">Komentar</label> <br>
     <textarea name="komentar" id="" cols="80" rows="8"></textarea> <br>
-    <button type="submit" name="submit" value = <?php echo date("h:i:sa"); ?>>Submit</button>
+    <button type="submit" name="submit" value = <?php echo date("h:i:sa"); ?> >Submit</button>
 </body>
 </html>

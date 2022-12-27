@@ -9,7 +9,7 @@ $agama = $_POST['agama'];
 $komentar = $_POST['komentar'];
 $submit = $_POST['submit'];
 
-$query = "INSERT INTO register VALUES('$nama', '$umur', '$email', '$jeniskelamin', '$agama', '$komentar', '$submit')";
+$query = "INSERT INTO register VALUES('$nama','$umur','$email','$jeniskelamin','$agama','$komentar','$submit')";
 
 mysqli_query($koneksi, $query);
 ?>
